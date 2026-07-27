@@ -1,7 +1,17 @@
 aid: foodsmart
 name: Foodsmart
-description: Foodsmart is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Foodsmart is a telenutrition company that pairs the nation's largest network
+  of registered dietitians with a digital food-benefits platform, delivering
+  personalized nutrition care via telehealth to more than three million members.
+  The company partners with health plans and employers to reach Medicaid,
+  Medicare, and commercial members, combining one-on-one dietitian counseling
+  with meal planning, grocery ordering, and SNAP benefits enrollment. Foodsmart's
+  "Foodscription" model connects clinical nutrition guidance to affordable,
+  healthy food access to improve outcomes and lower the cost of diet-related
+  chronic disease. This profile was surfaced as a Mayfield portfolio company and
+  enriched by the API Evangelist pipeline; Foodsmart exposes no public developer
+  API, SDKs, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/foodsmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://site-assets.plasmic.app/ccb128a5e2bc70b4467424866fd82c99.jpg
 tags:
 - Company
+- Nutrition
+- Telehealth
+- Telenutrition
+- Healthcare
+- Dietitians
+- Food Benefits
+- Digital Health
+- Employee Benefits
+- Medicaid
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://foodsmart.com
+- type: Blog
+  url: https://foodsmart.com/blog
+- type: Support
+  url: https://foodsmart.com/contact
+- type: Login
+  url: https://foodsmart.com/login
+- type: TermsOfService
+  url: https://foodsmart.com/terms
+- type: PrivacyPolicy
+  url: https://foodsmart.com/privacy-policy
+- type: DomainSecurity
+  url: security/foodsmart-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
